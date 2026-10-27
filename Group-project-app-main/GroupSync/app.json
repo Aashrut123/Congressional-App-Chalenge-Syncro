@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Syncro",
+    "slug": "groupsync",
+    "scheme": "groupsync",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.groupsync.app"
+    },
+    "android": {
+      "package": "com.groupsync.app"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-community/datetimepicker",
+      [
+        "expo-notifications",
+        {
+          "color": "#26745A"
+        }
+      ],
+      "expo-font",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

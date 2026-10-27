@@ -1,0 +1,50 @@
+{
+  "name": "groupsync",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo start --ios",
+    "android": "expo start --android",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "node --experimental-strip-types --experimental-transform-types --import ./test/register.mjs --test lib/planner/planner.test.ts lib/planner/schedule.test.ts lib/planner/slots.test.ts lib/reminders.test.ts lib/goals.test.ts lib/dependencies.test.ts lib/timezone.test.ts lib/home.test.ts lib/format.test.ts lib/recurrence.test.ts lib/assistant/route.test.ts lib/assistant/chat.test.ts lib/assistant/proposal.test.ts"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/datetimepicker": "9.1.0",
+    "@supabase/supabase-js": "^2.57.0",
+    "expo": "~57.0.31",
+    "expo-asset": "~57.0.20",
+    "expo-constants": "~57.0.0",
+    "expo-font": "~57.0.4",
+    "expo-image-picker": "~57.0.20",
+    "expo-linking": "~57.0.0",
+    "expo-notifications": "~57.0.24",
+    "expo-router": "~57.0.29",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-reanimated": "4.5.1",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-web": "^0.21.2",
+    "react-native-worklets": "0.10.1"
+  },
+  "overrides": {
+    "react-native-reanimated": "4.5.1",
+    "react-native-worklets": "0.10.1"
+  },
+  "devDependencies": {
+    "@expo/ngrok": "^4.1.0",
+    "@types/react": "~19.2.0",
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "~57.0.2",
+    "typescript": "~6.0.3"
+  }
+}

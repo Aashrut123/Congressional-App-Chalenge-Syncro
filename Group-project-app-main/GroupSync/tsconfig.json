@@ -1,0 +1,6 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": { "strict": true, "allowImportingTsExtensions": true, "paths": { "@/*": ["./*"] } },
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],
+  "exclude": ["supabase/functions", "lib/planner/planner.test.ts", "lib/planner/schedule.test.ts", "lib/planner/slots.test.ts", "lib/reminders.test.ts", "lib/goals.test.ts", "lib/dependencies.test.ts", "lib/timezone.test.ts", "lib/home.test.ts", "lib/format.test.ts", "lib/recurrence.test.ts", "lib/assistant/route.test.ts", "lib/assistant/chat.test.ts", "lib/assistant/proposal.test.ts"]
+}
