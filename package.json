@@ -1,0 +1,11 @@
+{
+  "name": "groupsync-workspace",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix GroupSync start",
+    "postinstall": "npm --prefix GroupSync install",
+    "test": "npm --prefix GroupSync test",
+    "typecheck": "npm --prefix GroupSync run typecheck",
+    "lint": "npm --prefix GroupSync run lint"
+  }
+}
